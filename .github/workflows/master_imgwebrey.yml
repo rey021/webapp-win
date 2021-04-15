@@ -19,7 +19,7 @@ jobs:
     - name: Set up .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '2.1.807'
+        dotnet-version: '3.1.301'
 
     - name: Build with dotnet
       run: dotnet build --configuration Release
@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'imgwebrey'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_27842b82f90a437ea95d33454c279ad5 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d2fd9b61aeef4e1eab0c24e08ce19eaa }}
         package: .
