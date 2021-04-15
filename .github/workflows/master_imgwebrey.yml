@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'imgwebrey'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d2fd9b61aeef4e1eab0c24e08ce19eaa }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_50cf4ea51aff4da68e4ba7c258ece752 }}
         package: .
